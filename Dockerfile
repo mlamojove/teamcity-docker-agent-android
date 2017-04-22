@@ -10,7 +10,7 @@ ENV ANDROID_HOME /opt/android-sdk-linux
 ENV PATH ${PATH}:${ANDROID_HOME}/tools:${ANDROID_HOME}/platform-tools
 
 RUN which adb
-#RUN which android
+RUN which android
 
 # Create emulator
 RUN echo "no" | android create avd \
