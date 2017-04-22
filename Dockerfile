@@ -10,15 +10,15 @@ ENV ANDROID_HOME /opt/android-sdk-linux
 ENV PATH ${PATH}:${ANDROID_HOME}/tools:${ANDROID_HOME}/platform-tools
 
 RUN which adb
-RUN which android
+#RUN which android
 
 # Create emulator
 RUN echo "no" | android create avd \
                 --force \
                 --device "Nexus 5" \
                 --name test \
-                --target android-24 \
-                --abi armeabi-v7a \
+                --target android-25 \
+                --abi sys-img-armeabi-v7a-google_apis-25 \
                 --skin WVGA800 \
                 --sdcard 512M
 
