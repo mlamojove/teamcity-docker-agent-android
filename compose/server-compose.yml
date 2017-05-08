@@ -1,0 +1,9 @@
+version: "3"
+services:
+  teamcity-server-instance:
+    image: jetbrains/teamcity-server:2017.1
+    ports:
+      - "8111:${PORT:-8111}"
+    volumes:
+      - ${DATA_PATH:-~/development/teamcity/data/}:/data/teamcity_server/datadir
+      - ${LOGS_PATH:-~/development/teamcity/logs/}:/opt/teamcity/logs
