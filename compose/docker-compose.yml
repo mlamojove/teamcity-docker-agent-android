@@ -12,4 +12,4 @@ services:
     volumes:
       - ${CONF_PATH:-~/development/teamcity/agent/}:/data/teamcity_agent/conf
     environment:
-      - SERVER_URL=${URL}
+      - SERVER_URL=${SERVER_URL}

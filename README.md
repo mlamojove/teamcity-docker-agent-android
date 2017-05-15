@@ -25,7 +25,7 @@ docker build -t teamcity-docker-agent-android:0.1 .
 ```
 docker-compose up server
 ```
-2. Set environment variable URL to IP address of machine where the server is running (for Unix based systems `export URL=ip_address:port`, e.g. `export URL=192.168.0.1:8111`).
+2. Set environment variable SERVER_URL to IP address of machine where the server is running (for Unix based systems `export SERVER_URL=ip_address:port`, e.g. `export SERVER_URL=192.168.0.1:8111`).
 3. Run TeamCity agent with command:
 ```
 docker-compose up agent
