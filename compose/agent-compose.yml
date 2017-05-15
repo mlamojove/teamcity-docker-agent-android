@@ -1,8 +1,0 @@
-version: "3"
-services:
-  teamcity-agent:
-    image: teamcity-docker-agent-android:0.1
-    volumes:
-      - ${CONF_PATH:-~/development/teamcity/agent/}:/data/teamcity_agent/conf
-    environment:
-      - SERVER_URL=${URL}
