@@ -1,10 +1,5 @@
 ## TeamCity Docker agent for Android with emulator
-TeamCity Docker agent for building Android app.
-
-### Description
-
 Based on official TeamCity's Build Agent image https://hub.docker.com/r/jetbrains/teamcity-agent/. Involves prerequisites for building Android App including emulator for UI tests. The level of Android API is set to version 25.
-
 
 ### Base Docker Image
 [jetbrains/teamcity-agent](https://hub.docker.com/r/jetbrains/teamcity-agent/)
