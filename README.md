@@ -1,4 +1,4 @@
-# teamcity-docker-agent-android
+## TeamCity Docker agent for Android with emulator
 TeamCity Docker agent for building Android app.
 
 ### Description
