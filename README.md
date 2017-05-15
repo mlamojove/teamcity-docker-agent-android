@@ -30,4 +30,4 @@ docker-compose up server
 ```
 docker-compose up agent
 ```
-4. [Set up agent for building Android app](https://github.com/mlamojove/teamcity-docker-agent-android/wiki/Teamcity-setup)
+4. [Set up agent for building Android app](SETUP.md)
